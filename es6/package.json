@@ -15,5 +15,9 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --mode=development"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/polyfill": "^7.4.4"
   }
 }
