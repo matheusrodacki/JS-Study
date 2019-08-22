@@ -90,11 +90,11 @@
 /*!*********************!*\
   !*** ./function.js ***!
   \*********************/
-/*! exports provided: soma */
+/*! exports provided: soma, sub, mult */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"soma\", function() { return soma; });\nfunction soma(a, b) {\n  return a + b;\n}\n\n//# sourceURL=webpack:///./function.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"soma\", function() { return soma; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sub\", function() { return sub; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"mult\", function() { return mult; });\nfunction soma(a, b) {\n  return a + b;\n}\nfunction sub(a, b) {\n  return a - b;\n}\nfunction mult(a, b) {\n  return a * b;\n}\n\n//# sourceURL=webpack:///./function.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./function */ \"./function.js\");\n\nconsole.log(Object(_function__WEBPACK_IMPORTED_MODULE_0__[\"soma\"])(2, 4));\n\n//# sourceURL=webpack:///./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _function__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./function */ \"./function.js\");\n//import { soma as somaFunction, sub } from './function';\n//import soma from './soma';\n //console.log(somaFunction(2,4));\n// console.log(sub(5,7));\n\nconsole.log(_function__WEBPACK_IMPORTED_MODULE_0__[\"soma\"](2, 4));\nconsole.log(_function__WEBPACK_IMPORTED_MODULE_0__[\"sub\"](5, 7));\nconsole.log(_function__WEBPACK_IMPORTED_MODULE_0__[\"mult\"](8, 4));\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ })
 

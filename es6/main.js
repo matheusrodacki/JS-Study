@@ -1,3 +1,13 @@
-import { soma } from './function';
+//import { soma as somaFunction, sub } from './function';
+//import soma from './soma';
 
- console.log(soma(2,4));
+import * as funcoes from './function';
+
+
+//console.log(somaFunction(2,4));
+// console.log(sub(5,7));
+
+
+console.log(funcoes.soma(2,4));
+console.log(funcoes.sub(5,7));
+console.log(funcoes.mult(8,4));
