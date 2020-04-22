@@ -1,3 +1,8 @@
 es6\node_modules
+es6\package.json
+es6\webpack.config.js
+es6\yarn.lock
+es6\yarn-error.log
 js_study.code-workspace
 node_modules
+node.js\node_modules
